@@ -1,3 +1,4 @@
+=begin
 Before do
   puts 'Estou sendo executado antes de cada cenario'
   @soma = 5 + 5
@@ -14,3 +15,4 @@ end
 After '@final' do
     puts 'rodei apenas no cenario com tag final'
 end
+=end
